@@ -11,6 +11,5 @@ class potencia():
             print("Error, intentalo otra vez")
             base = int(input("Introduce una base para la potencia:"))
             expo = int(input("Introduce un exponente para tu base:"))
-        potencia(base, expo)
-    else: 
-        potencia(base, expo)
+    potencia(base, expo)
+   

@@ -10,6 +10,5 @@ class suma_n_numeros():
         while num<0 or num==0:
             print("Error, intentalo otra vez")
             num = int(input("Introduce un numero para calcular:"))
-        calcular_n_primeros_nums(num)
-    else: 
-        calcular_n_primeros_nums(num)
+    calcular_n_primeros_nums(num)
+    

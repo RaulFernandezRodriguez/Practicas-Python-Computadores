@@ -10,6 +10,4 @@ class factorial():
         while num<0 or num==0:
             print("Error, intentalo otra vez")
             num = int(input("Introduce un numero para calcular:"))
-        factorial(num)
-    else: 
-        factorial(num)
+    factorial(num)
